@@ -1,184 +1,776 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<title>MyTunes</title>
+    <title>MyTunes</title>
 
-<!-- bootstrap 4 css -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<!-- custom css -->
-<link href="styles/custom.css" rel="stylesheet" type="text/css">
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link href="styles/custom.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
-<!-- head -->
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h1>MY TUNES</h1> <!-- paginatitel-->
-            <h2>Listen to Destiny</h2> <!-- subtitel-->
+
+    <!-- head -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="no-gutters">
+                <img src="styles/images/Traveller Desktop.jpg" class="img-responsive mobile col-12 col-4">
+                <img src="styles/images/Traveller Mobile.jpg" class="img-responsive col-12 col-4">
+                <img src="styles/images/arrow.png" class="arrow img-fluid rounded mx-auto d-block">
+            </div>
         </div>
     </div>
-</div>
 
-<div class="container">
+    <!-- album-container -->
+    <div class="container">
 
-<div class="row">
-<!-- begin textbox 1.1 -->
-<div class="col-12 col-lg-4">
-    <img src="styles/images/Destiny.jpg" class="col-12 col-4">
-    <article>
-        <h3>Destiny Original Soundtrack Digital Edition</h3>
-        <p>Michael Salvatori - C Paul Johnson - Marton O'Donnel - Paul McCartney</p>
-        <ol class="list-group">
-            <li class="list-group-item">The Traveler</li>
-            <li class="list-group-item">The Fallen</li>
-            <li class="list-group-item">Excerpt from the Hope</li>
-            <li class="list-group-item">Excerpt from the Ecstasy</li>
-            <li class="list-group-item">The Warmind</li>
-            <li class="list-group-item">Guardian</li>
-            <li class="list-group-item">The Tower</li>
-            <li class="list-group-item">The Last Army</li>
-            <li class="list-group-item">The Collapse</li>
-            <li class="list-group-item">The Journey Home</li>
-            <li class="list-group-item">First Challenge</li>
-            <li class="list-group-item">Prey</li>
-            <li class="list-group-item">Tranquility</li>
-            <li class="list-group-item">The Great Unknown</li>
-            <li class="list-group-item">Excerpt 1 from the Rose</li>
-            <li class="list-group-item">Excerpt from the Tribulation</li>
-            <li class="list-group-item">Guardians Lost</li>
-            <li class="list-group-item">Relic of Hope</li>
-            <li class="list-group-item">Departure</li>
-            <li class="list-group-item">Lost Horizons</li>
-            <li class="list-group-item">Reborn</li>
-            <li class="list-group-item">Sepiks Prime</li>
-            <li class="list-group-item">Traveler's Promise</li>
-            <li class="list-group-item">Deconstruction</li>
-            <li class="list-group-item">Excerpt from the Ruin</li>
-            <li class="list-group-item">Untold Legends</li>
-            <li class="list-group-item">Cabal Stomp</li>
-            <li class="list-group-item">Dust Giants</li>
-            <li class="list-group-item">Ishtar Sink</li>
-            <li class="list-group-item">The World's Grave</li>
-            <li class="list-group-item">Exclusion Zone</li>
-            <li class="list-group-item">The Stranger</li>
-            <li class="list-group-item">Temple of Crota</li>
-            <li class="list-group-item">Eye of the Gate Lord</li>
-            <li class="list-group-item">The Hive</li>
-            <li class="list-group-item">The Collective</li>
-            <li class="list-group-item">End of the Line</li>
-            <li class="list-group-item">The Vex</li>
-            <li class="list-group-item">Siege Dancers</li>
-            <li class="list-group-item">Chronologies</li>
-            <li class="list-group-item">Passage</li>
-            <li class="list-group-item">Excerpt 2 from the Rose</li>
-            <li class="list-group-item">Excerpt from the Union</li>
-            <li class="list-group-item">All Ends Are Beginnings</li>
-        </ol>
-        <button type="button">Buy me</button>
-    </article>
-</div>
-<!-- einde textbox -->
+        <div class="row">
+            <!-- begin album 1 -->
+            <div class="col-12 col-lg-4 no-gutters">
+                <img src="styles/images/Destiny.jpg" class="rounded-top col-12">
+                <article>
+                    <h3>Destiny
+                        <br> Original Soundtrack</h3>
+                    <p class="artists"> Michael Salvatori
+                        <br> C Paul Johnson
+                        <br> Martin O'Donnell
+                        <br> Paul McCartney
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Track</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>The Traveler</td>
+                                <td>2:30</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>The Fallen</td>
+                                <td>4:37</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Excerpt from the Hope</td>
+                                <td>2:16</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Excerpt from the Ecstasy</td>
+                                <td>2:10</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>The Warmind</td>
+                                <td>2:09</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-<!-- begin textb1ox 1.2 -->
-<div class="col-12 col-lg-4">
-    <img src="styles/images/Taken King.jpg" class="col-12 col-4">        
-    <article>
-        <h3>Destiny The Taken King Original Soundtrack Digital Edition</h3>
-        <p>Michael Salvatori - C Paul Johnson - Skye Lewin</p>
-        <ol class="list-group">
-            <li class="list-group-item">Path to Oryx</li>
-            <li class="list-group-item">Regicide</li>
-            <li class="list-group-item">Remembrance</li>
-            <li class="list-group-item">Betrayer</li>
-            <li class="list-group-item">Shadow Thief</li>
-            <li class="list-group-item">The Coming War</li>
-            <li class="list-group-item">Whispers</li>
-            <li class="list-group-item">Visage of Oryx</li>
-            <li class="list-group-item">Exlitrate</li>
-            <li class="list-group-item">Surge of Light</li>
-            <li class="list-group-item">Into the Void</li>
-            <li class="list-group-item">The Awoken</li>
-            <li class="list-group-item">Queen's Ransom</li>
-            <li class="list-group-item">The Fallen Wolves</li>
-            <li class="list-group-item">Narthex</li>
-            <li class="list-group-item">The Court of Oryx</li>
-            <li class="list-group-item">Bow to No One</li>
-            <li class="list-group-item">Kell Rising</li>
-            <li class="list-group-item">To Be a Warlock</li>
-            <li class="list-group-item">Cabal Breach</li>
-            <li class="list-group-item">Oryx Axendant</li>
-            <li class="list-group-item">Round Table</li>
-            <li class="list-group-item">All Part of the Plan</li>
-            <li class="list-group-item">Into the Pit</li>
-            <li class="list-group-item">Harbringer</li>
-            <li class="list-group-item">Wolf Walker</li>
-            <li class="list-group-item">Traveler's Promise (Reprise)</li>
-            <li class="list-group-item">Soul of Crota</li>
-            <li class="list-group-item">Deathsinger Dirge</li>
-            <li class="list-group-item">Enemy of My Enemy</li>
-            <li class="list-group-item">Send in the Cavalry</li>
-            <li class="list-group-item">The Dreadnaught</li>
-            <li class="list-group-item">The Taken</li>
-            <li class="list-group-item">Fallen S.A.B.E.R.</li>
-            <li class="list-group-item">Mara's Theme</li>
-            <li class="list-group-item">Ancient Walls</li>
-            <li class="list-group-item">Vestian Outpost</li>
-            <li class="list-group-item">Hammer of Sol</li>
-            <li class="list-group-item">Dark Blade</li>
-            <li class="list-group-item">Transept</li>
-            <li class="list-group-item">Taken Down</li>
-            <li class="list-group-item">Fathers and Sons</li>
-            <li class="list-group-item">Long Live the King</li>
-            <li class="list-group-item">Last Stand</li>
-            <li class="list-group-item">The Sword</li>
-        </ol>
-        <button type="button">Buy me</button>        
-    </article>
-</div>
-<!-- einde textbox -->
+                    <p>
+                        <a class="btn showmore" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="styles/images/arrow.png" class="showmore-img">Show all 44 tracks
+                        </a>
+                    </p>
+
+                    <div class="collapse" id="collapse1">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Guardian</td>
+                                    <td>2:08</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>The Tower</td>
+                                    <td>1:20</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>The Last Army</td>
+                                    <td>6:57</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>The Collapse</td>
+                                    <td>1:33</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>The Journey Home</td>
+                                    <td>3:09</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>First Challenge</td>
+                                    <td>3:46</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Prey</td>
+                                    <td>2:13</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Tranquility</td>
+                                    <td>5:09</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>The Great Unknown</td>
+                                    <td>1:35</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Excerpt 1 from the Rose</td>
+                                    <td>1:23</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Excerpt from the Tribulation</td>
+                                    <td>2:15</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Guardians Lost</td>
+                                    <td>3:50</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Relic of Hope</td>
+                                    <td>2:14</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Departure</td>
+                                    <td>2:01</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Lost Horizons</td>
+                                    <td>1:09</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Reborn</td>
+                                    <td>3:35</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Sepiks Prime</td>
+                                    <td>4:14</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>Traveler's Promise</td>
+                                    <td>1:56</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>Deconstruction</td>
+                                    <td>1:42</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>Excerpt from the Ruin</td>
+                                    <td>1:36</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>Untold Legends</td>
+                                    <td>3:34</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>Cabal Stomp</td>
+                                    <td>3:41</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>Dust Giants</td>
+                                    <td>4:28</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>Ishtar Sink</td>
+                                    <td>4:43</td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>The World's Grave</td>
+                                    <td>5:36</td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>Exclusion Zone</td>
+                                    <td>3:48</td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>The Stranger</td>
+                                    <td>1:11</td>
+                                </tr>
+                                <tr>
+                                    <td>33</td>
+                                    <td>Temple of Crota</td>
+                                    <td>5:17</td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>Eye of the Gate Lord</td>
+                                    <td>4:02</td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>The Hive</td>
+                                    <td>5:47</td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>The Collective</td>
+                                    <td>4:11</td>
+                                </tr>
+                                <tr>
+                                    <td>37</td>
+                                    <td>End of the Line</td>
+                                    <td>3:32</td>
+                                </tr>
+                                <tr>
+                                    <td>38</td>
+                                    <td>The Vex</td>
+                                    <td>5:13</td>
+                                </tr>
+                                <tr>
+                                    <td>39</td>
+                                    <td>Siege Dancers</td>
+                                    <td>3:17</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>Chronologies</td>
+                                    <td>3:33</td>
+                                </tr>
+                                <tr>
+                                    <td>41</td>
+                                    <td>Passage</td>
+                                    <td>3:22</td>
+                                </tr>
+                                <tr>
+                                    <td>42</td>
+                                    <td>Excerpt 2 from the Rose</td>
+                                    <td>2:47</td>
+                                </tr>
+                                <tr>
+                                    <td>43</td>
+                                    <td>Excerpt from the Union</td>
+                                    <td>1:45</td>
+                                </tr>
+                                <tr>
+                                    <td>44</td>
+                                    <td>All Ends Are Beginnings</td>
+                                    <td>1:34</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    
+                    <button type="button" class="btn btn-outline-light">$ 7.00 BUY ME</button>
+                </article>
+            </div>
+            <!-- einde album 1 -->
+
+            <!-- begin album 2 -->
+            <div class="col-12 col-lg-4 no-gutters">
+                <img src="styles/images/Taken King.jpg" class="rounded-top col-12">
+                <article>
+                    <h3>Destiny The Taken King
+                        <br>Original Soundtrack</h3>
+                    <p class="artists"> Michael Salvatori
+                        <br> C Paul Johnson
+                        <br> Skye Lewin
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Track</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Path to Oryx</td>
+                                <td>2:55</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Regicide</td>
+                                <td>5:11</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Remembrance</td>
+                                <td>2:11</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Betrayer</td>
+                                <td>5:15</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Shadow Thief</td>
+                                <td>3:14</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>
+                        <a class="btn showmore" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="styles/images/arrow.png" class="showmore-img">Show all 45 tracks
+                        </a>
+                    </p>
+
+                    <div class="collapse" id="collapse2">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>6</td>
+                                    <td>The Coming War</td>
+                                    <td>2:30</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Whispers</td>
+                                    <td>1:21</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Visage of Oryx</td>
+                                    <td>4:49</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Exlitrate</td>
+                                    <td>2:08</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Surge of Light</td>
+                                    <td>3:34</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Into the Void</td>
+                                    <td>2:58</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>The Awoken</td>
+                                    <td>3:39</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Queen's Ransom</td>
+                                    <td>3:52</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>The Fallen Wolves</td>
+                                    <td>1:02</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Narthex</td>
+                                    <td>1:35</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>The Court of Oryx</td>
+                                    <td>3:43</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Bow to No One</td>
+                                    <td>3:58</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Kell Rising</td>
+                                    <td>2:59</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>To Be a Warlock</td>
+                                    <td>1:20</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Cabal Breach</td>
+                                    <td>4:19</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Oryx Axendant</td>
+                                    <td>1:13</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Round Table</td>
+                                    <td>1:44</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>All Part of the Plan</td>
+                                    <td>4:10</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>Into the Pit</td>
+                                    <td>1:10</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>Harbringer</td>
+                                    <td>1:13</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>Wolf Walker</td>
+                                    <td>1:48</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>Traveler's Promise (Reprise)</td>
+                                    <td>2:32</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>Soul of Crota</td>
+                                    <td>3:38</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>Deathsinger Dirge</td>
+                                    <td>0:46</td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>Enemy of My Enemy</td>
+                                    <td>4:11</td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>Send in the Cavalry</td>
+                                    <td>1:41</td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>The Dreadnaught</td>
+                                    <td>1:31</td>
+                                </tr>
+                                <tr>
+                                    <td>33</td>
+                                    <td>The Taken</td>
+                                    <td>4:44</td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>Fallen S.A.B.E.R.</td>
+                                    <td>2:08</td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>Mara's Theme</td>
+                                    <td>1:51</td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>Ancient Walls</td>
+                                    <td>2:45</td>
+                                </tr>
+                                <tr>
+                                    <td>37</td>
+                                    <td>Vestian Outpost</td>
+                                    <td>2:49</td>
+                                </tr>
+                                <tr>
+                                    <td>38</td>
+                                    <td>Hammer of Sol</td>
+                                    <td>0:35</td>
+                                </tr>
+                                <tr>
+                                    <td>39</td>
+                                    <td>Dark Blade</td>
+                                    <td>5:04</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>Transept</td>
+                                    <td>2:09</td>
+                                </tr>
+                                <tr>
+                                    <td>41</td>
+                                    <td>Taken Down</td>
+                                    <td>4:28</td>
+                                </tr>
+                                <tr>
+                                    <td>42</td>
+                                    <td>Fathers and Sons</td>
+                                    <td>0:49</td>
+                                </tr>
+                                <tr>
+                                    <td>43</td>
+                                    <td>Long Live the King</td>
+                                    <td>3:27</td>
+                                </tr>
+                                <tr>
+                                    <td>44</td>
+                                    <td>Last Stand</td>
+                                    <td>4:08</td>
+                                </tr>
+                                <tr>
+                                    <td>45</td>
+                                    <td>The Sword</td>
+                                    <td>0:51</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-light">$ 7.00 BUY ME</button>
+                </article>
+            </div>
+            <!-- einde album 2 -->
+
+            <!-- begin album 3 -->
+            <div class="col-12 col-lg-4 no-gutters">
+                <img src="styles/images/Rise of Iron.jpg" class="rounded-top col-12">
+                <article>
+                    <h3>Destiny Rise of Iron
+                        <br> Original Soundtrack</h3>
+                    <p class="artists"> Michael Salvatori
+                        <br> Skye Lewin
+                        <br> C Paul Johnson
+                        <br> Rotem Moav
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Track</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Rise of Iron</td>
+                                <td>5:55</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Elegy</td>
+                                <td>4:28</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>SIVA Swarm</td>
+                                <td>3:47</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Lords Lost</td>
+                                <td>2:05</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Eyes Up</td>
+                                <td>4:51</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        <a class="btn showmore" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="styles/images/arrow.png" class="showmore-img">Show all 22 tracks
+                        </a>
+                    </p>
+
+                    <div class="collapse" id="collapse3">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Shadow of the Walker</td>
+                                    <td>4:31</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>At Peace</td>
+                                    <td>1:00</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Requies Aeterna</td>
+                                    <td>2:05</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Efrideet</td>
+                                    <td>2:08</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Siege Engine</td>
+                                    <td>2:55</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Ad Victoriam</td>
+                                    <td>3:38</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>King of the Mountain</td>
+                                    <td>2:04</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>The Wretched Eye</td>
+                                    <td>2:52</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>The Last Iron Lord</td>
+                                    <td>2:52</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Brave the Storm</td>
+                                    <td>3:31</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>The Archpriest</td>
+                                    <td>3:07</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Young Wolf</td>
+                                    <td>4:21</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Ascension</td>
+                                    <td>3:48</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Lord's Watch</td>
+                                    <td>2:52</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Forged in Flame</td>
+                                    <td>5:07</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Iron Tomb</td>
+                                    <td>6:22</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Sepiks Redux (feat. Misha Mansoor)</td>
+                                    <td>4:15</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    
+                    <button type="button" class="btn btn-outline-light">$ 5.00 BUY ME</button>
+                </article>
+            </div>
+            <!-- einde album 3 -->
+
+        </div>
+        <!-- einde row -->
+    </div>
+    <!-- einde album-container -->
+
+    <!-- info-container -->
+    <div class="container-fluid info">
+        <div class="row justify-content-center">
+
+            <h2 class="col-12">ABOUT THE ARTISTS</h2>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <h3>Michael Salvatori</h3>
+                        <p class="infot">Is an American composer known for his collaboration with colleague Martin O'Donnell on video game developer Bungie's series.</p>
+                        <p class="infot">Together with O'Donnell, he composed the soundtrack to the 2014 video game, Destiny for which he won the 2014 Original Dramatic Score.</p>
+                </div>
+                
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <h3>Martin O'Donnell</h3>
+                        <p class="infot">Is an American composer known for his collaboration with colleague Michael Salvatori on video game developer Bungie's series.</p>
+                        <p class="infot">Together with O'Donnell, he composed the soundtrack to the 2014 video game, Destiny for which he won the 2014 Original Dramatic Score.</p>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <h3>C. Paul Johnson</h3>
+                        <p class="infot">C. Paul Johnson, also known as C Paul, is a sound designer and musician at Bungie Studios. He was made a full-time Bungie staff member in September 2004.</p>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <h3>Paul McCartney</h3>
+                        <p class="infot">Is an English musician, singer, songwriter, multi-instrumentalist and composer. He is best known as a member of the famous rock band The Beatles.</p>
+                        <p class="infot">In July 2012, McCartney and Bungie confirmed that McCartney, along with Martin O'Donnell and Michael Salvatori, is working on the soundtrack and score for Destiny.</p>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <h3>Skye Lewin</h3>
+                        <p class="infot">Is a musician, composer, songwriter, record producer, and music editor.</p>
+                        <p class="infot">currently serves as Music Director and Composer at Bungie and is a co-founder of the record label and music production company Sound Chemistry.</p>
+                </div>
             
-<!-- begin textbox 1.3 -->
-<div class="col-12 col-lg-4">
-    <img src="styles/images/Rise of Iron.jpg" class="col-12 col-4">        
-    <article>
-        <h3>Destiny Rise of Iron Original Soundtrack Digital Edition</h3>
-        <p>Michael Salvatori - Skye Lewin - C Paul Johnson - Rotem Moav</p>
-        <ol class="list-group">
-            <li class="list-group-item">Rise of Iron</li>
-            <li class="list-group-item">Elegy</li>
-            <li class="list-group-item">SIVA Swarm</li>
-            <li class="list-group-item">Lords Lost</li>
-            <li class="list-group-item">Eyes Up</li>
-            <li class="list-group-item">Shadow of the Walker</li>
-            <li class="list-group-item">At Peace</li>
-            <li class="list-group-item">Requies Aeterna</li>
-            <li class="list-group-item">Efrideet</li>
-            <li class="list-group-item">Siege Engine</li>
-            <li class="list-group-item">Ad Victoriam</li>
-            <li class="list-group-item">King of the Mountain</li>
-            <li class="list-group-item">The Wretched Eye</li>
-            <li class="list-group-item">The Last Iron Lord</li>
-            <li class="list-group-item">Brave the Storm</li>
-            <li class="list-group-item">The Archpriest</li>
-            <li class="list-group-item">Young Wolf</li>
-            <li class="list-group-item">Ascension</li>
-            <li class="list-group-item">Lord's Watch</li>
-            <li class="list-group-item">Forged in Flame</li>
-            <li class="list-group-item">Iron Tomb</li>
-            <li class="list-group-item">Sepiks Redux (feat. Misha Mansoor)</li>
-        </ol>
-        <button type="button">Buy me</button>        
- </article>
-</div>
-<!-- einde textbox -->
+        </div>
+    </div>
+    <!-- einde info-container -->
 
-</div>
-</div>
+    <!-- footer -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 footing">
+                <p>© 2017 Ruben De Keersmaecker<br>
+                Industrieweg 232 9030 Gent-Mariakerke, Oost-Vlaanderen Gent, België<br>
+                09 234 86 00</p>
+            </div>
+        </div>
+    </div>
+    <!-- einde footer -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>

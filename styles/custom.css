@@ -6,12 +6,119 @@
 /* ==============================================
    GLOBAL STYLES
    ============================================== */
+body {
+    background-color: #C5C5C5;
+    background-image: url(../styles/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.arrow {
+    max-width: 6%;
+    margin: 1em;
+    margin-bottom: 1.5em;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
 article {
-    background-color: #E2E2E2;
+    background-color: rgba(212, 212, 212, 0.3);
     margin-bottom: 0.75em;
     padding: 0.75em;
 }
 
+.img-responsive.mobile {
+    display: none;
+  }
+
+
+    h1 {
+    color: #FFFFFF;
+}
+
+    h2 {
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+}
+
+    h3 {
+    color: #FFFFFF;
+}
+
+    p {
+    color: #FFFFFF;
+}
+
+    tr {
+    color: #FFFFFF;
+    }
+
+/* ==============================================
+   ALBUM ITEMS
+   ============================================== */
+
+
+.artists {
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.list-group-item {
+    background-color: #B6B6B6;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.showmore-img {
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+.showmore {
+    margin-top: 0.75em;
+    border-top: 1px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.btn-outline-dark {
+    align-items: right;
+}
+
+/* ==============================================
+   ARTIST INFO
+   ============================================== */
+
+.infot {
+    color: #888888;
+}
+
+
+.info {
+    background-color: rgb(212, 212, 212);
+    padding-top: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* ==============================================
+   FOOTER
+   ============================================== */
+
+.footing {
+    margin-top: 1em;
+    text-align: center;
+}
 
 /* MEDIA QUERIES
 *********************************************/
@@ -23,7 +130,14 @@ article {
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .img-responsive {
+        display: none;
+      }
+    .img-responsive.mobile {
+        display: block;
+      }
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
